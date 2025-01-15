@@ -1,0 +1,5 @@
+Set the hostname for K8S
+Master Node:  172.28.0.60 – k8smaster
+First Worker Node:  172.28.0.61  – k8sworker1
+Second Worker Node:  172.28.0.62  – k8sworker2
+Set the DNS ips
