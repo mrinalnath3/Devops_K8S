@@ -3,3 +3,5 @@ Master Node:  172.28.0.60 – k8smaster
 First Worker Node:  172.28.0.61  – k8sworker1
 Second Worker Node:  172.28.0.62  – k8sworker2
 Set the DNS ips
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/main/manifests/namespace.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/main/manifests/metallb.yaml
